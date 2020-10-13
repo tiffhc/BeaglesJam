@@ -22,4 +22,18 @@ public class ButtonEffects : MonoBehaviour
         TextUI.text = "";
 
     }
+
+    public IEnumerator DeleteUITextAfterTime(float waitTime)
+    {
+        Debug.Log("Called");
+        yield return new WaitForSeconds(waitTime);
+        Debug.Log("Answered");
+        TextUI.text = "";
+    }
+
+    public void StartDeleteUITextCoroutime(float time)
+    {
+        StartCoroutine("DeleteUITextAfterTime", time);
+    }
+
 }
