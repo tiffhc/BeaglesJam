@@ -1,12 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SimpleInteract : MonoBehaviour
 {
     // Start is called before the first frame update
 
     string PLAYER_TAG = "Player";
+    [SerializeField] Text GameText;
+    [SerializeField] string TextToDisplay = "TEXT HERE PLEASE";
     void Start()
     {
 
@@ -23,6 +26,7 @@ public class SimpleInteract : MonoBehaviour
         if (other.gameObject.tag == PLAYER_TAG)
         {
             other.gameObject.GetComponent<CharacterController>().DisableMovement();
+            GameText.text = TextToDisplay;
         }
     }
 }
