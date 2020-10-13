@@ -20,7 +20,10 @@ public class ButtonEffects : MonoBehaviour
 
         playerObject.GetComponent<CharacterController>().DisableMovement();
         TextUI.text = "";
-
+        Vector3 newPosition = new Vector3(playerObject.transform.position.x,
+                                            playerObject.transform.position.y,
+                                            Camera.main.transform.position.z);
+        Camera.main.transform.position = newPosition;
     }
 
     public IEnumerator DeleteUITextAfterTime(float waitTime)

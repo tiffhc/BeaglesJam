@@ -10,6 +10,7 @@ public class SimpleInteract : MonoBehaviour
     string PLAYER_TAG = "Player";
     [SerializeField] Text GameText;
     [SerializeField] string TextToDisplay = "TEXT HERE PLEASE";
+    [SerializeField] Transform CameraMoveTo = null;
     void Start()
     {
 
@@ -27,6 +28,15 @@ public class SimpleInteract : MonoBehaviour
         {
             other.gameObject.GetComponent<CharacterController>().DisableMovement();
             GameText.text = TextToDisplay;
+
+
+            if(CameraMoveTo != null)
+            {
+                Vector3 newPosition = new Vector3(CameraMoveTo.position.x,
+                                                    CameraMoveTo.position.y,
+                                                    Camera.main.transform.position.z);
+                Camera.main.transform.position = newPosition;
+            }
         }
     }
 }
