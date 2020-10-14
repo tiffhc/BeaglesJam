@@ -10,6 +10,7 @@ public class CypherScript : MonoBehaviour
     string PLAYER_TAG = "Player";
     [SerializeField] Text textUI;
     [SerializeField] Canvas gameCanvas;
+    [SerializeField] int phoneNumber;
     void Start()
     {
         
@@ -21,19 +22,22 @@ public class CypherScript : MonoBehaviour
         
     }
 
-   public  void SetUIObject(Text UIObjectText, Canvas canvas)
+   public  void SetUIObject(Text UIObjectText, Canvas canvas, int phoneNumber)
     {
         textUI = UIObjectText;
         gameCanvas = canvas;
+        this.phoneNumber = phoneNumber;
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.tag == PLAYER_TAG)
         {
-            textUI.text = "The code is: 1234";
+            textUI.text = "The code is: " + phoneNumber.ToString();
             gameCanvas.GetComponent<ButtonEffects>().StartDeleteUITextCoroutime(3.0f);
             Destroy(this.gameObject);
+            GameObject GameManager = GameObject.FindGameObjectWithTag("GameManager");
+            GameManager.GetComponent<GameManagerScript>().FoundPhoneNumber();
         }
     }
 }
