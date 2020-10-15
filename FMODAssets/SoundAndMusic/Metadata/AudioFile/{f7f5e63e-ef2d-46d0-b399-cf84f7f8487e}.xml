@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{f7f5e63e-ef2d-46d0-b399-cf84f7f8487e}">
+		<property name="assetPath">
+			<value>fx_footstepsAsphalt_v03.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.52083333333333337</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{dd1b84c4-281b-41bf-ba5a-82428d871386}</destination>
+		</relationship>
+	</object>
+</objects>
