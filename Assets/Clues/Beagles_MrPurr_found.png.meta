@@ -1,19 +1,28 @@
 fileFormatVersion: 2
-guid: 3ac3b5f2d10243f4f9acecdee8640a86
+guid: 324a9d99696ead84abe45a9d9bed8541
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1092705460810100807
-    second: Beagles_MC_pink_0
+      213: -5801387985998746319
+    second: Beagles_MrPurr_found_0
   - first:
-      213: 1642186366189614699
-    second: Beagles_MC_pink_1
+      213: 9220736262219129308
+    second: Beagles_MrPurr_found_1
   - first:
-      213: 5843727741704332557
-    second: Beagles_MC_pink_2
+      213: -8218133827582561692
+    second: Beagles_MrPurr_found_2
   - first:
-      213: 3891472152937828890
-    second: Beagles_MC_pink_3
+      213: 6207078104542969532
+    second: Beagles_MrPurr_found_3
+  - first:
+      213: 5619678477378141394
+    second: Beagles_MrPurr_found_4
+  - first:
+      213: 2158732042340824806
+    second: Beagles_MrPurr_found_5
+  - first:
+      213: 5915823293740949838
+    second: Beagles_MrPurr_found_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -135,85 +144,148 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Beagles_MC_pink_0
+      name: Beagles_MrPurr_found_0
       rect:
         serializedVersion: 2
-        x: 156
-        y: 148
-        width: 244
-        height: 436
+        x: 611
+        y: 336
+        width: 458
+        height: 577
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 17, y: 0, z: 21, w: 25}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74037b3c3d11a2f00800000000000000
-      internalID: 1092705460810100807
+      spriteID: 13d63522d545d7fa0800000000000000
+      internalID: -5801387985998746319
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Beagles_MC_pink_1
+      name: Beagles_MrPurr_found_1
       rect:
         serializedVersion: 2
-        x: 491
-        y: 148
-        width: 243
-        height: 436
+        x: 1752
+        y: 337
+        width: 458
+        height: 577
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 17, y: 0, z: 21, w: 31}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b66b8b3acc73ac610800000000000000
-      internalID: 1642186366189614699
+      spriteID: cd16225e6c2a6ff70800000000000000
+      internalID: 9220736262219129308
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Beagles_MC_pink_2
+      name: Beagles_MrPurr_found_2
       rect:
         serializedVersion: 2
-        x: 826
-        y: 148
-        width: 244
-        height: 436
+        x: 2226
+        y: 406
+        width: 11
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 17, y: 0, z: 21, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d05e1607b67191150800000000000000
-      internalID: 5843727741704332557
+      spriteID: 462f15a43d253fd80800000000000000
+      internalID: -8218133827582561692
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Beagles_MC_pink_3
+      name: Beagles_MrPurr_found_3
       rect:
         serializedVersion: 2
-        x: 1176
-        y: 131
-        width: 244
-        height: 436
+        x: 2130
+        y: 333
+        width: 9
+        height: 4
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 17, y: 0, z: 21, w: 17}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a121f212e49410630800000000000000
-      internalID: 3891472152937828890
+      spriteID: cbe736a46a8f32650800000000000000
+      internalID: 6207078104542969532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beagles_MrPurr_found_4
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 308
+        width: 162
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc38040dcb1dfd40800000000000000
+      internalID: 5619678477378141394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beagles_MrPurr_found_5
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 323
+        width: 29
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e67af4ea5b55fd10800000000000000
+      internalID: 2158732042340824806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beagles_MrPurr_found_6
+      rect:
+        serializedVersion: 2
+        x: 2046
+        y: 314
+        width: 51
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41296931f9391250800000000000000
+      internalID: 5915823293740949838
       vertices: []
       indices: 
       edges: []
