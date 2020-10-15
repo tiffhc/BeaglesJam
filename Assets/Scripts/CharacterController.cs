@@ -23,6 +23,8 @@ public class CharacterController : MonoBehaviour
         }
         //Split movement into two steps, in case we want to move the chacter using somehting else, but here we get input accross the axis,
         //and then used moved character to move it around. 
+
+
         movement = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         MoveCharacter();
     }
@@ -34,7 +36,7 @@ public class CharacterController : MonoBehaviour
             return;
         }
         //Translates the character. 
-        this.gameObject.transform.Translate(new Vector3(movement.x, movement.y, 0.0f) * moveSpeed * Time.deltaTime);
+        this.gameObject.transform.Translate(new Vector3(movement.x, movement.y, 0.0f).normalized * moveSpeed * Time.deltaTime);
 
 
     }
