@@ -132,10 +132,10 @@ TextureImporter:
       name: Beagles_Marcus_0
       rect:
         serializedVersion: 2
-        x: 476
-        y: 504
-        width: 730
-        height: 1362
+        x: 141
+        y: 149
+        width: 223
+        height: 413
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,10 +153,10 @@ TextureImporter:
       name: Beagles_Marcus_1
       rect:
         serializedVersion: 2
-        x: 1613
-        y: 516
-        width: 730
-        height: 1362
+        x: 480
+        y: 149
+        width: 223
+        height: 413
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

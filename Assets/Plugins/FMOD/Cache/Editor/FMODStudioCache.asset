@@ -72,6 +72,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &-1335281158515741421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Exploration.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/SoundAndMusic/Build/Desktop/Exploration.bank
+  SubDir: 
+  lastModified: 637383668206767962
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-681768971812691944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -104,16 +122,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 167624911094284486}
-  - {fileID: 8635373376682981079}
-  - {fileID: -3763212760486256661}
+  - {fileID: -1335281158515741421}
+  - {fileID: 1008200566575449483}
   EditorEvents:
   - {fileID: 6411286143939741401}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -3763212760486256661}
+  - {fileID: 1008200566575449483}
   StringsBanks:
   - {fileID: 167624911094284486}
-  stringsBankWriteTime: 637383683047025905
+  stringsBankWriteTime: 637383668206787900
   cacheVersion: 3
 --- !u!114 &167624911094284486
 MonoBehaviour:
@@ -129,11 +147,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: FMODAssets/SoundAndMusic/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637383683047025905
+  lastModified: 637383668206787900
   LoadResult: 0
   FileSizes:
   - Name: Desktop
     Value: 788
+  Exists: 1
+--- !u!114 &1008200566575449483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/SoundAndMusic/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637383668206777981
+  LoadResult: 0
+  FileSizes: []
   Exists: 1
 --- !u!114 &2084738753251776644
 MonoBehaviour:
@@ -186,7 +222,7 @@ MonoBehaviour:
   Path: event:/Footsteps
   guid: 0c990bf9c8955145b3f2977f32c75814
   Banks:
-  - {fileID: 8635373376682981079}
+  - {fileID: -1335281158515741421}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1

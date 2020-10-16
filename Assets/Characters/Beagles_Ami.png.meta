@@ -132,10 +132,10 @@ TextureImporter:
       name: Beagles_Ami_0
       rect:
         serializedVersion: 2
-        x: 397
-        y: 502
-        width: 779
-        height: 1342
+        x: 118
+        y: 149
+        width: 238
+        height: 406
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,10 +153,10 @@ TextureImporter:
       name: Beagles_Ami_1
       rect:
         serializedVersion: 2
-        x: 1527
-        y: 505
-        width: 779
-        height: 1342
+        x: 458
+        y: 152
+        width: 238
+        height: 406
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

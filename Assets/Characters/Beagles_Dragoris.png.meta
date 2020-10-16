@@ -132,10 +132,10 @@ TextureImporter:
       name: Beagles_Dragoris_0
       rect:
         serializedVersion: 2
-        x: 398
-        y: 509
-        width: 870
-        height: 1422
+        x: 118
+        y: 151
+        width: 265
+        height: 430
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,10 +153,10 @@ TextureImporter:
       name: Beagles_Dragoris_1
       rect:
         serializedVersion: 2
-        x: 1530
-        y: 501
-        width: 870
-        height: 1422
+        x: 457
+        y: 149
+        width: 265
+        height: 430
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -132,10 +132,10 @@ TextureImporter:
       name: Beagles_JanitorJo_0
       rect:
         serializedVersion: 2
-        x: 386
-        y: 491
-        width: 829
-        height: 1373
+        x: 114
+        y: 144
+        width: 252
+        height: 415
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,10 +153,10 @@ TextureImporter:
       name: Beagles_JanitorJo_1
       rect:
         serializedVersion: 2
-        x: 1516
-        y: 481
-        width: 829
-        height: 1373
+        x: 453
+        y: 142
+        width: 252
+        height: 415
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

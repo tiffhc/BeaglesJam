@@ -132,10 +132,10 @@ TextureImporter:
       name: Beagles_Melufas_0
       rect:
         serializedVersion: 2
-        x: 498
-        y: 504
-        width: 743
-        height: 1373
+        x: 147
+        y: 149
+        width: 230
+        height: 416
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,10 +153,10 @@ TextureImporter:
       name: Beagles_Melufas_1
       rect:
         serializedVersion: 2
-        x: 1630
-        y: 506
-        width: 753
-        height: 1373
+        x: 487
+        y: 150
+        width: 230
+        height: 416
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
