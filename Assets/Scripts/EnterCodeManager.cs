@@ -1,11 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.PlayerLoop;
 using UnityEngine.UI;
 
 public class EnterCodeManager : MonoBehaviour
 {
+    // TODO: Make the text for losing disappear after a second so player understands they can retry the passcode
+    // TODO: Link to game code where it starts playing when interacting (interaction object gives the minigame the code)
+    //and stops playing after player clicked quit or entered the correct code (return this result somewhere for game state control)
+
+
     [SerializeField] private Text codeText = null; // TODO: remove because this is for debug
     [SerializeField] private Text inputText = null;
     private string correctCode;
@@ -37,7 +41,7 @@ public class EnterCodeManager : MonoBehaviour
                 {
                     // Get value from button if it's a button
                     // TODO: Maybe tag the buttons to simplify this process
-                    Debug.Log("Ray hit: " + hit.collider.gameObject.name);
+                    //Debug.Log("Ray hit: " + hit.collider.gameObject.name);
                     CodeButton cb = hit.collider.gameObject.GetComponent<CodeButton>();
                     int v;
                     if(cb != null)
@@ -73,23 +77,23 @@ public class EnterCodeManager : MonoBehaviour
         if (inputCode == correctCode)
         {
             // WIN
-            Debug.Log("CORRECT CODE!!");
+            //Debug.Log("CORRECT CODE!!");
             inputText.text = "CORRECT!";
             playing = !playing;
         }
         else if (inputCode.Length == codeLength)
         {
             // LOSE
-            Debug.Log("WRONG CODE!!");
-            inputCode = "";
+            //Debug.Log("WRONG CODE!!");
             inputText.text = "INCORRECT!";
+            playing = !playing;
         }
     }
 
     // Switches the state of the minigame
     public void UpdatePlaying()
     {
-        playing = !playing;
+        playing = true;
 
         // TODO: Remove later
         // Debug code to test
