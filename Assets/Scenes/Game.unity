@@ -2084,6 +2084,11 @@ PrefabInstance:
       propertyPath: playerLocation
       value: 
       objectReference: {fileID: 233201019}
+    - target: {fileID: 2248930282810705563, guid: 5b617b7bb2c4b544c89d504019404b51,
+        type: 3}
+      propertyPath: isDoorUnlocked
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4673789803081229291, guid: 5b617b7bb2c4b544c89d504019404b51,
         type: 3}
       propertyPath: m_Enabled

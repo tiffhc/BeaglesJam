@@ -36,6 +36,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-3763212760486256661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/SoundAndMusic/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637383683046976042
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-1340696597838711503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86,16 +104,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 167624911094284486}
-  - {fileID: 2084738753251776644}
-  - {fileID: -1340696597838711503}
+  - {fileID: 8635373376682981079}
+  - {fileID: -3763212760486256661}
   EditorEvents:
   - {fileID: 6411286143939741401}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -1340696597838711503}
+  - {fileID: -3763212760486256661}
   StringsBanks:
   - {fileID: 167624911094284486}
-  stringsBankWriteTime: 637383916848071916
+  stringsBankWriteTime: 637383683047025905
   cacheVersion: 3
 --- !u!114 &167624911094284486
 MonoBehaviour:
@@ -111,7 +129,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: FMODAssets/SoundAndMusic/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637383916848071916
+  lastModified: 637383683047025905
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -168,7 +186,7 @@ MonoBehaviour:
   Path: event:/Footsteps
   guid: 0c990bf9c8955145b3f2977f32c75814
   Banks:
-  - {fileID: 2084738753251776644}
+  - {fileID: 8635373376682981079}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -194,6 +212,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &8635373376682981079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Exploration.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/SoundAndMusic/Build/Desktop/Exploration.bank
+  SubDir: 
+  lastModified: 637383683046976042
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &9162946965016828656
 MonoBehaviour:
   m_ObjectHideFlags: 0
