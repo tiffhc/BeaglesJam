@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: b989facefad132545b3010a25d0bcd2e
+=======
+guid: cd4b6f68097c941378574c6c6a146e37
+>>>>>>> music-integration
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
