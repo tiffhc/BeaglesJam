@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{2c3918f3-e1cf-4435-b271-38fd3137fe77}">
+		<property name="assetPath">
+			<value>fx_doorUnlockCatCage_v01.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.5786458333333333</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{dd1b84c4-281b-41bf-ba5a-82428d871386}</destination>
+		</relationship>
+	</object>
+</objects>

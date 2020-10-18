@@ -18,6 +18,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-8691855517771767344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/SoundAndMusic/Build/Desktop/SFX.bank
+  SubDir: 
+  lastModified: 637385550590000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-7994314078774286565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108,6 +126,70 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-6968526673626047569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Bomb Numpad
+  m_EditorClassIdentifier: 
+  Path: event:/Bomb Numpad
+  guid: a36785e267488243aadb40f90e598704
+  Banks:
+  - {fileID: -8691855517771767344}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 462
+--- !u!114 &-5886045090563252808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/SoundAndMusic/Build/Desktop/SFX.bank
+  SubDir: 
+  lastModified: 637384912340000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-5850015343235107496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Unlock Chem Lab
+  m_EditorClassIdentifier: 
+  Path: event:/Unlock Chem Lab
+  guid: 7191eec03fb3f34a84919aa84b6b03fa
+  Banks:
+  - {fileID: -8691855517771767344}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 568
 --- !u!114 &-5477482479940013380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -126,6 +208,47 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-5205229189643511983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/SoundAndMusic/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637385550580000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-4598293327699518966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pick Up Object
+  m_EditorClassIdentifier: 
+  Path: event:/Pick Up Object
+  guid: 99a057eb1050da41ae06949509b3924f
+  Banks:
+  - {fileID: -8691855517771767344}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 838
 --- !u!114 &-4521002823921977851
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -288,6 +411,29 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-631561085827556815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Death
+  m_EditorClassIdentifier: 
+  Path: event:/Death
+  guid: 6bb039eac22f4448be1e17f18877b0fe
+  Banks:
+  - {fileID: -8691855517771767344}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4000
 --- !u!114 &-375138588377319095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -306,6 +452,29 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-360129579355377463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Chem Lab Numpad
+  m_EditorClassIdentifier: 
+  Path: event:/Chem Lab Numpad
+  guid: ab0025141d9f4142b0a0b1c8db3f1668
+  Banks:
+  - {fileID: -8691855517771767344}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 263
 --- !u!114 &-204564544457592305
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -338,20 +507,50 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 167624911094284486}
-  - {fileID: 6234473774053300319}
-  - {fileID: -1824683210559295365}
-  - {fileID: 6091398898604979420}
+  - {fileID: -5205229189643511983}
+  - {fileID: 7170295467239053609}
+  - {fileID: -8691855517771767344}
   EditorEvents:
   - {fileID: 6411286143939741401}
   - {fileID: 3735024612463862986}
   - {fileID: 3862277882217567334}
+  - {fileID: 7026604636096698760}
+  - {fileID: -631561085827556815}
+  - {fileID: -5850015343235107496}
+  - {fileID: -4598293327699518966}
+  - {fileID: -6968526673626047569}
+  - {fileID: -360129579355377463}
+  - {fileID: 130776731587046671}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 6234473774053300319}
+  - {fileID: -5205229189643511983}
   StringsBanks:
   - {fileID: 167624911094284486}
-  stringsBankWriteTime: 637385382986564004
+  stringsBankWriteTime: 637385550580000000
   cacheVersion: 3
+--- !u!114 &130776731587046671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pick Up Keys
+  m_EditorClassIdentifier: 
+  Path: event:/Pick Up Keys
+  guid: d7ae6f38a544ee4f885f4d7c826df982
+  Banks:
+  - {fileID: -8691855517771767344}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 521
 --- !u!114 &167624911094284486
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -366,11 +565,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: FMODAssets/SoundAndMusic/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637385382986564004
+  lastModified: 637385550580000000
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 998
+    Value: 1310
   Exists: 1
 --- !u!114 &348359134014294445
 MonoBehaviour:
@@ -441,6 +640,42 @@ MonoBehaviour:
   Path: FMODAssets/SoundAndMusic/Build/Desktop/Master.bank
   SubDir: 
   lastModified: 637384837660000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &1458763543368320134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/SoundAndMusic/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637384912340000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &1640881838367556599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/SoundAndMusic/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637384912340000000
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -531,7 +766,7 @@ MonoBehaviour:
   Path: event:/Exploration Theme
   guid: 373a8fa6b9284d458768509173aeb228
   Banks:
-  - {fileID: -1824683210559295365}
+  - {fileID: 7170295467239053609}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -590,7 +825,7 @@ MonoBehaviour:
   Path: event:/Main Theme
   guid: f894b1c20fbea44f99e9a5dcd8633228
   Banks:
-  - {fileID: -1824683210559295365}
+  - {fileID: 7170295467239053609}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -703,7 +938,7 @@ MonoBehaviour:
   Path: event:/Footsteps
   guid: 0c990bf9c8955145b3f2977f32c75814
   Banks:
-  - {fileID: 6091398898604979420}
+  - {fileID: -8691855517771767344}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -729,6 +964,47 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &7026604636096698760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Unlock Cat Cage
+  m_EditorClassIdentifier: 
+  Path: event:/Unlock Cat Cage
+  guid: 2e3ca965fa41214db96725cbf759e18f
+  Banks:
+  - {fileID: -8691855517771767344}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 578
+--- !u!114 &7170295467239053609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/SoundAndMusic/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637385550590000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &7893764291520275046
 MonoBehaviour:
   m_ObjectHideFlags: 0
