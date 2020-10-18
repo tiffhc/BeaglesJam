@@ -171,7 +171,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -200,7 +200,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 5
   m_TargetDisplay: 0
 --- !u!224 &11062546
 RectTransform:
@@ -2310,6 +2310,11 @@ PrefabInstance:
       propertyPath: cameraLocation
       value: 
       objectReference: {fileID: 17970680}
+    - target: {fileID: 4673789803081229291, guid: 5b617b7bb2c4b544c89d504019404b51,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7327925846465870467, guid: 5b617b7bb2c4b544c89d504019404b51,
         type: 3}
       propertyPath: m_Name
@@ -4824,8 +4829,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 353, y: -206}
-  m_SizeDelta: {x: 139.77527, y: 27.620407}
+  m_AnchoredPosition: {x: 319.8, y: -197.4}
+  m_SizeDelta: {x: 118.85382, y: 21.25241}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &465115139
 MonoBehaviour:
