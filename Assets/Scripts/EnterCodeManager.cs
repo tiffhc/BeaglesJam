@@ -10,8 +10,11 @@ public class EnterCodeManager : MonoBehaviour
     //and stops playing after player clicked quit or entered the correct code (return this result somewhere for game state control)
 
 
-    [SerializeField] private Text codeText = null; // TODO: remove because this is for debug
+    //[SerializeField] private Text codeText = null; // TODO: remove because this is for debug
     [SerializeField] private Text inputText = null;
+    [SerializeField] private Button exitButton = null;
+    [SerializeField] private Transform cameraPos = null;
+    private InputCodeTrigger trigger;
     private string correctCode;
     private string inputCode;
     private bool playing; // Determines if this game is being played
@@ -59,10 +62,11 @@ public class EnterCodeManager : MonoBehaviour
     public void SetCorrectCode(string newCorrectCode)
     {
         correctCode = newCorrectCode;
+        codeLength = correctCode.Length;
 
         // update debug UI
         // TODO: remove later
-        codeText.text = correctCode;
+        //codeText.text = correctCode;
     }
 
     // Updates the code that has been inputted by player
@@ -72,6 +76,7 @@ public class EnterCodeManager : MonoBehaviour
         inputCode += newNumber;
         // Update UI
         inputText.text = inputCode;
+        
 
         // check if it's correct
         if (inputCode == correctCode)
@@ -79,6 +84,7 @@ public class EnterCodeManager : MonoBehaviour
             // WIN
             //Debug.Log("CORRECT CODE!!");
             inputText.text = "CORRECT!";
+            EndGame(true);
             playing = !playing;
         }
         else if (inputCode.Length == codeLength)
@@ -86,8 +92,15 @@ public class EnterCodeManager : MonoBehaviour
             // LOSE
             //Debug.Log("WRONG CODE!!");
             inputText.text = "INCORRECT!";
-            playing = !playing;
+            inputCode = "";
         }
+    }
+
+    public void EndGame(bool solved)
+    {
+        inputText.gameObject.SetActive(false);
+        exitButton.gameObject.SetActive(false);
+        trigger.SolveCode(solved);
     }
 
     // Switches the state of the minigame
@@ -97,10 +110,19 @@ public class EnterCodeManager : MonoBehaviour
 
         // TODO: Remove later
         // Debug code to test
-        correctCode = "12341";
-        codeLength = correctCode.Length;
-        codeText.text = correctCode;
+        //correctCode = "12341";
+        //codeLength = correctCode.Length;
+        //codeText.text = correctCode;
         inputCode = "";
+        inputText.gameObject.SetActive(true);
+        exitButton.gameObject.SetActive(true);
         inputText.text = "";
+
+        Camera.main.transform.position = cameraPos.position;
+    }
+
+    public void SetTriggerRef(InputCodeTrigger refer)
+    {
+        trigger = refer;
     }
 }

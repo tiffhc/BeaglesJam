@@ -11,16 +11,27 @@ public class DoorBehaviour : MonoBehaviour
     // Start is called before the first frame update
     private void OnTriggerEnter(Collider other)
     {
-        if(!isDoorUnlocked)
-        {
-            return;
-        }
         Debug.Log("Hit a thing with door");
         if (other.gameObject.tag == PLAYER_TAG)
         {
-            Debug.Log("Went there");
-            Camera.main.transform.position = cameraLocation.transform.position;
-            other.gameObject.transform.position = playerLocation.transform.position;
+            if (!isDoorUnlocked)
+            {
+                InputCodeTrigger minigame = GetComponent<InputCodeTrigger>();
+                if (minigame != null)
+                {
+                    minigame.StartMinigame();
+                }
+                else
+                {
+                    return;
+                }
+            }
+            else
+            {
+                Debug.Log("Went there");
+                Camera.main.transform.position = cameraLocation.transform.position;
+                other.gameObject.transform.position = playerLocation.transform.position;
+            }
         }
 
     }
