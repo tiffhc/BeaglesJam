@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+using UnityEngine.SceneManagement;
+
 public class Timer : MonoBehaviour
 {
 
@@ -28,6 +30,7 @@ public class Timer : MonoBehaviour
         {
             Debug.Log("Game Over");
             timeLeftUntilGameOver = 0.0f;
+            SceneManager.LoadScene("FailedGame");
         }
     }
 }
