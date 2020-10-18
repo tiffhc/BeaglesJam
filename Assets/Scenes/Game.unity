@@ -2069,6 +2069,7 @@ GameObject:
   - component: {fileID: 119434957}
   - component: {fileID: 119434956}
   - component: {fileID: 119434959}
+  - component: {fileID: 119434960}
   m_Layer: 0
   m_Name: Ami_Cafeteria
   m_TagString: Untagged
@@ -2197,6 +2198,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.38, y: 4.06, z: 0.2}
   m_Center: {x: 0, y: 0.0000038146973, z: 0}
+--- !u!114 &119434960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 119434954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55ad2d2e538f1224c89992707261b9c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thingstoSpawn:
+  - {fileID: 1565802657}
+  - {fileID: 1282701605}
 --- !u!1 &124087975
 GameObject:
   m_ObjectHideFlags: 0
@@ -19082,7 +19098,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1282701606
 Transform:
   m_ObjectHideFlags: 0
@@ -19982,7 +19998,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 151726.38, y: -70212.95}
+  m_AnchoredPosition: {x: 161377.88, y: -75660.21}
   m_SizeDelta: {x: 419.62653, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1352895468
@@ -22938,7 +22954,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1565802658
 Transform:
   m_ObjectHideFlags: 0
