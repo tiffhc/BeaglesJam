@@ -27,9 +27,10 @@ public class FoundClue : MonoBehaviour
         {
             UIElement.SetActive(true);
             FindObjectOfType<NotificationManager>().ShowClueNotification(clueDescription);
+            other.GetComponent<CharacterController>().DisableMovement();
             //TODO Pickup sound effect
             //Destroy if clue is collectible, else just switch the sprite:
-            if (this.gameObject.tag == "Collectible")
+            if (this.gameObject.tag == "collectible")
             {
                 Destroy(this.gameObject);
             }
@@ -37,7 +38,6 @@ public class FoundClue : MonoBehaviour
             {
                 this.GetComponent<SpriteRenderer>().sprite = foundSprite;
                 this.GetComponent<BoxCollider>().enabled = false;
-                other.GetComponent<CharacterController>().DisableMovement();
             }
         }
     }
