@@ -18,10 +18,10 @@ public class GameManagerScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        phoneNumber = Random.Range(1000, 9999);
+       /* phoneNumber = Random.Range(1000, 9999);
         int chooseASpawnPoint = Random.Range(0, codeSpawnPoints.Length);
         GameObject code = GameObject.Instantiate(codeItem, codeSpawnPoints[chooseASpawnPoint].transform.position, codeSpawnPoints[chooseASpawnPoint].transform.rotation);
-        code.GetComponent<CypherScript>().SetUIObject(textUI, gameCanvas, phoneNumber);
+        code.GetComponent<CypherScript>().SetUIObject(textUI, gameCanvas, phoneNumber);*/
     }
 
     // Update is called once per frame
