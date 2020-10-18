@@ -10,6 +10,7 @@ public class Timer : MonoBehaviour
 
     [SerializeField] float timeLeftUntilGameOver;
     [SerializeField] Text timeText;
+    [SerializeField] string failedGameScene = "FailedGame";
     // Start is called before the first frame update
     void Start()
     {
@@ -30,7 +31,7 @@ public class Timer : MonoBehaviour
         {
             Debug.Log("Game Over");
             timeLeftUntilGameOver = 0.0f;
-            SceneManager.LoadScene("FailedGame");
+            SceneManager.LoadScene(failedGameScene);
         }
     }
 }
