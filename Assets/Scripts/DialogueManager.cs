@@ -78,6 +78,8 @@ public class DialogueManager : MonoBehaviour
     {
         FMODUnity.RuntimeManager.PlayOneShot(endDialogueSound);
         animator.SetBool("isOpen", false);
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        player.GetComponent<CharacterController>().DisableMovement();
     }
 
     public void SkipDialogue()

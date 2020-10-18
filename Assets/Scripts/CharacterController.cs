@@ -55,6 +55,10 @@ public class CharacterController : MonoBehaviour
 
     void PlayFootstepsSound()
     {
+        if(isMovementDisabled)
+        {
+            return;
+        }
         if (characterIsMoving == true)
         {
             FMODUnity.RuntimeManager.PlayOneShot(footstepsSound);

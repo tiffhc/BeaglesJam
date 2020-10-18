@@ -10,6 +10,8 @@ public class DialogueTrigger : MonoBehaviour
     private void OnTriggerEnter(Collider other) { 
         if (other.gameObject.tag == PLAYER_TAG)
         {
+
+            other.gameObject.GetComponent<CharacterController>().DisableMovement();
             TriggerDialogue();
         }
     }
