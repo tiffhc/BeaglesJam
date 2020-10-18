@@ -5,6 +5,8 @@ using UnityEngine.UIElements;
 
 public class WireMinigameHandler : MonoBehaviour
 {
+    [SerializeField] private int totalWires = 0;
+    private int wiresComplete = 0;
     private Wire holdingWire = null;
     private Wire endWireFound = null;
     private bool isHoldingWire = false;
@@ -72,6 +74,7 @@ public class WireMinigameHandler : MonoBehaviour
                         (endWireFound.GetWireNumber() == holdingWire.GetWireNumber()))
                 {
                     holdingWire.EndWire(true);
+                    FinishedWire();
                 }
                 else
                 {
@@ -80,7 +83,7 @@ public class WireMinigameHandler : MonoBehaviour
 
                 isHoldingWire = false;
                 // TODO: change this to a return to the proper game after minigame is complete inside the if
-                isPlaying = false;
+                //isPlaying = false;
             }
         }
         else
@@ -90,11 +93,25 @@ public class WireMinigameHandler : MonoBehaviour
 
         isHoldingWire = false;
         // TODO: change this to a return to the proper game after minigame is complete inside the if
-        isPlaying = false;
+        //isPlaying = false;
+    }
+
+    private void FinishedWire()
+    {
+        wiresComplete += 1;
+
+        if(wiresComplete == totalWires)
+        {
+            isPlaying = false;
+            Debug.Log("Complete!!");
+        }
     }
 
     public void StartPlaying()
     {
-        isPlaying = true;
+        if (wiresComplete == 0)
+        {
+            isPlaying = true;
+        }
     }
 }
