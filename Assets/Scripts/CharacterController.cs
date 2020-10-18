@@ -9,6 +9,8 @@ public class CharacterController : MonoBehaviour
     public float moveSpeed = 1.0f;
     public bool isMovementDisabled = false;
 
+    public Animator animator;
+
     [FMODUnity.EventRef]
     public string footstepsSound = "";
     private float footstepsRatePerSecond = 0.4f;
@@ -30,11 +32,22 @@ public class CharacterController : MonoBehaviour
 
         if (Input.GetAxis("Vertical") >= 0.01f || Input.GetAxis("Horizontal") >= 0.01f || Input.GetAxis("Vertical") <= -0.01f || Input.GetAxis("Horizontal") <= -0.01f) 
         {
+            //flip player if moving to the right
+            if (Input.GetAxis("Horizontal") >= 0.01f)
+            {
+                transform.localScale = new Vector3(-0.4f, 0.4f, 1);
+            }
+            else if (Input.GetAxis("Horizontal") <= -0.01f) //flip back if player is moving to the left
+            {
+                transform.localScale = new Vector3(0.4f, 0.4f, 1);
+            }
             characterIsMoving = true;
+            animator.SetBool("Running", true);
         } 
         else if (Input.GetAxis ("Vertical") == 0 || Input.GetAxis ("Horizontal") == 0) 
         {
             characterIsMoving = false;
+            animator.SetBool("Running", false);
         }
 
         //Split movement into two steps, in case we want to move the chacter using somehting else, but here we get input accross the axis,
