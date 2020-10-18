@@ -23434,6 +23434,11 @@ PrefabInstance:
       propertyPath: animator
       value: 
       objectReference: {fileID: 615019836}
+    - target: {fileID: 1233712819532944674, guid: a13493cc12f2739419c88a7391f41276,
+        type: 3}
+      propertyPath: moveSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1233712819532944729, guid: a13493cc12f2739419c88a7391f41276,
         type: 3}
       propertyPath: m_Name
