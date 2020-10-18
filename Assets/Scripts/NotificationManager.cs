@@ -35,6 +35,12 @@ public class NotificationManager : MonoBehaviour
         DisplayNextSentence();
     }
 
+    public void ShowClueNotification(ClueMenuItems clueDescription)
+    {
+        animator.SetBool("isOpen", true);
+        dialogueText.text = clueDescription.thisClueSentences;
+    }
+
     public void DisplayNextSentence()
     {
         if (sentences.Count == 0)
@@ -54,6 +60,7 @@ public class NotificationManager : MonoBehaviour
         animator.SetBool("isOpen", false);
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         player.GetComponent<CharacterController>().DisableMovement();
+        Debug.Log("notificaiton out");
     }
 
     public void SkipDialogue()

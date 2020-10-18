@@ -6,6 +6,9 @@ public class FoundClue : MonoBehaviour
 {
     [SerializeField] GameObject UIElement;
     string PLAYER_TAG = "Player";
+    public ClueMenuItems clueDescription;
+    public Sprite foundSprite;
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -23,8 +26,19 @@ public class FoundClue : MonoBehaviour
         if(other.gameObject.tag == PLAYER_TAG)
         {
             UIElement.SetActive(true);
+            FindObjectOfType<NotificationManager>().ShowClueNotification(clueDescription);
             //TODO Pickup sound effect
-            Destroy(this.gameObject);
+            //Destroy if clue is collectible, else just switch the sprite:
+            if (this.gameObject.tag == "Collectible")
+            {
+                Destroy(this.gameObject);
+            }
+            else
+            {
+                this.GetComponent<SpriteRenderer>().sprite = foundSprite;
+                this.GetComponent<BoxCollider>().enabled = false;
+                other.GetComponent<CharacterController>().DisableMovement();
+            }
         }
     }
 }

@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: e34cce12beb6e43efb0ecfa8cacce72d
+guid: cb6b175474bc19544b97ff4ec240386d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -997277128693792955
-    second: Beagles_ChemTable_0
+      213: -3552997420593756686
+    second: Beagles_Dragorisnote_0
   - first:
-      213: 1915159165465844984
-    second: Beagles_ChemTable_1
+      213: -3777960979969606283
+    second: Beagles_Dragorisnote_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -129,7 +129,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Beagles_ChemTable_0
+      name: Beagles_Dragorisnote_0
       rect:
         serializedVersion: 2
         x: 61
@@ -143,14 +143,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54fb5993cb5f822f0800000000000000
-      internalID: -997277128693792955
+      spriteID: 2f541a9aba731bec0800000000000000
+      internalID: -3552997420593756686
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Beagles_ChemTable_1
+      name: Beagles_Dragorisnote_1
       rect:
         serializedVersion: 2
         x: 590
@@ -164,8 +164,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8fcdce13d13049a10800000000000000
-      internalID: 1915159165465844984
+      spriteID: 57dff95518cf19bc0800000000000000
+      internalID: -3777960979969606283
       vertices: []
       indices: 
       edges: []
