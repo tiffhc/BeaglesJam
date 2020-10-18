@@ -1006,6 +1006,8 @@ MonoBehaviour:
   clueDescription: {fileID: 1884865301}
   foundSprite: {fileID: -3988500133860264551, guid: b13bfc8e785ba489696e132a17706b58,
     type: 3}
+  removeCabinetSound: event:/Remove Cabinet
+  removeSound: event:/Found Clue
 --- !u!65 &44279572
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2781,6 +2783,8 @@ MonoBehaviour:
   clueDescription: {fileID: 1364259505}
   foundSprite: {fileID: 6606149601110519268, guid: e2bd12945af0b5e44bb557b5db4b4bf8,
     type: 3}
+  removeCabinetSound: event:/Remove Cabinet
+  removeSound: event:/Found Clue
 --- !u!65 &137986599
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3789,6 +3793,8 @@ MonoBehaviour:
   clueDescription: {fileID: 1920026066}
   foundSprite: {fileID: -6500222002196271201, guid: a7eda4edced544be984b7ffb72961365,
     type: 3}
+  removeCabinetSound: event:/Remove Cabinet
+  removeSound: event:/Found Clue
 --- !u!65 &230512162
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5655,6 +5661,8 @@ MonoBehaviour:
   clueDescription: {fileID: 508929952}
   foundSprite: {fileID: -69336513859392769, guid: 3cb6159f8afb34c66bef12d00894c3a6,
     type: 3}
+  removeCabinetSound: event:/Remove Cabinet
+  removeSound: event:/Found Clue
 --- !u!65 &315276006
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5795,6 +5803,8 @@ MonoBehaviour:
   clueDescription: {fileID: 1172195494}
   foundSprite: {fileID: -1431345489794308032, guid: e92d0288ff6a44664b0b4c626e295b0b,
     type: 3}
+  removeCabinetSound: event:/Remove Cabinet
+  removeSound: event:/Found Clue
 --- !u!65 &344171508
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5908,6 +5918,8 @@ MonoBehaviour:
   clueDescription: {fileID: 1252965649}
   foundSprite: {fileID: 225847524678951451, guid: 01d1946e584284a7095daf22a57fb2c1,
     type: 3}
+  removeCabinetSound: event:/Remove Cabinet
+  removeSound: event:/Found Clue
 --- !u!65 &345250322
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6812,6 +6824,8 @@ MonoBehaviour:
   clueDescription: {fileID: 0}
   foundSprite: {fileID: -3654756003816059432, guid: 4f99def574213e348b3e741ba605ee8a,
     type: 3}
+  removeCabinetSound: event:/Remove Cabinet
+  removeSound: event:/Found Clue
 --- !u!65 &413243953
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8515,7 +8529,7 @@ GameObject:
   - component: {fileID: 542842481}
   - component: {fileID: 542842479}
   m_Layer: 0
-  m_Name: Level0Music
+  m_Name: Music
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8534,7 +8548,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/Main Theme
+  Event: event:/Exploration Theme
   PlayEvent: 1
   StopEvent: 0
   AllowFadeout: 1
@@ -11900,6 +11914,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80fca38e6e20e7d4ca58e556835b0321, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sound: event:/Chem Lab Numpad
   buttonValue: 5
 --- !u!65 &746118047
 BoxCollider:
@@ -12853,6 +12868,8 @@ MonoBehaviour:
   clueDescription: {fileID: 313912971}
   foundSprite: {fileID: -4878150885621617933, guid: 50eb8c7285ea84f01ae94256aefa9d62,
     type: 3}
+  removeCabinetSound: event:/Remove Cabinet
+  removeSound: event:/Found Clue
 --- !u!65 &799295349
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14617,6 +14634,8 @@ MonoBehaviour:
   clueDescription: {fileID: 1973396238}
   foundSprite: {fileID: 4709130275882061558, guid: 3a88972c572284c9988cdc2d114db401,
     type: 3}
+  removeCabinetSound: event:/Remove Cabinet
+  removeSound: event:/Found Clue
 --- !u!65 &927572649
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14808,6 +14827,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80fca38e6e20e7d4ca58e556835b0321, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sound: event:/Chem Lab Numpad
   buttonValue: 4
 --- !u!65 &930303446
 BoxCollider:
@@ -14889,6 +14909,8 @@ MonoBehaviour:
   clueDescription: {fileID: 72442058}
   foundSprite: {fileID: -6206947308699260338, guid: c23ac6a966a8841fdb0d956e6618d388,
     type: 3}
+  removeCabinetSound: event:/Remove Cabinet
+  removeSound: event:/Found Clue
 --- !u!65 &938088153
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15130,6 +15152,8 @@ MonoBehaviour:
   clueDescription: {fileID: 599396115}
   foundSprite: {fileID: -3552997420593756686, guid: cb6b175474bc19544b97ff4ec240386d,
     type: 3}
+  removeCabinetSound: event:/Remove Cabinet
+  removeSound: event:/Found Clue
 --- !u!65 &950526773
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15980,6 +16004,8 @@ MonoBehaviour:
   clueDescription: {fileID: 0}
   foundSprite: {fileID: 4555017171356633462, guid: 9d6d9e290f7a18a41bd7f536e6312e6e,
     type: 3}
+  removeCabinetSound: event:/Remove Cabinet
+  removeSound: event:/Found Clue
 --- !u!65 &1022741345
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17226,6 +17252,8 @@ MonoBehaviour:
   clueDescription: {fileID: 1178514684}
   foundSprite: {fileID: -997277128693792955, guid: e34cce12beb6e43efb0ecfa8cacce72d,
     type: 3}
+  removeCabinetSound: event:/Remove Cabinet
+  removeSound: event:/Found Clue
 --- !u!65 &1136315432
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19776,6 +19804,8 @@ MonoBehaviour:
   clueDescription: {fileID: 1226116584}
   foundSprite: {fileID: -7540642186896631008, guid: 14f00230442e84754a7023573bf42bbf,
     type: 3}
+  removeCabinetSound: event:/Remove Cabinet
+  removeSound: event:/Found Clue
 --- !u!212 &1282701609
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20002,6 +20032,8 @@ MonoBehaviour:
   clueDescription: {fileID: 314992064}
   foundSprite: {fileID: 955174963833775134, guid: a388f501695dfcf4b852ef4353d80768,
     type: 3}
+  removeCabinetSound: event:/Remove Cabinet
+  removeSound: event:/Found Clue
 --- !u!65 &1308787941
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20634,7 +20666,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 583826.1, y: -286723.16}
+  m_AnchoredPosition: {x: 600509.7, y: -296069.75}
   m_SizeDelta: {x: 419.62653, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1352895468
@@ -22494,6 +22526,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80fca38e6e20e7d4ca58e556835b0321, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sound: event:/Chem Lab Numpad
   buttonValue: 3
 --- !u!65 &1486120396
 BoxCollider:
@@ -22806,6 +22839,8 @@ MonoBehaviour:
   clueDescription: {fileID: 2116967633}
   foundSprite: {fileID: -5296607133704525236, guid: 23119c400548446e8b48243978cf2229,
     type: 3}
+  removeCabinetSound: event:/Remove Cabinet
+  removeSound: event:/Found Clue
 --- !u!65 &1500563362
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24579,6 +24614,8 @@ MonoBehaviour:
   clueDescription: {fileID: 1959853898}
   foundSprite: {fileID: -5810722345360977909, guid: b989facefad132545b3010a25d0bcd2e,
     type: 3}
+  removeCabinetSound: event:/Remove Cabinet
+  removeSound: event:/Found Clue
 --- !u!212 &1630389861
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24739,6 +24776,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80fca38e6e20e7d4ca58e556835b0321, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sound: event:/Chem Lab Numpad
   buttonValue: 7
 --- !u!65 &1636404616
 BoxCollider:
@@ -25769,6 +25807,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80fca38e6e20e7d4ca58e556835b0321, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sound: event:/Chem Lab Numpad
   buttonValue: 6
 --- !u!65 &1691633043
 BoxCollider:
@@ -26441,6 +26480,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80fca38e6e20e7d4ca58e556835b0321, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sound: event:/Chem Lab Numpad
   buttonValue: 2
 --- !u!65 &1757812592
 BoxCollider:
@@ -27126,6 +27166,8 @@ MonoBehaviour:
   clueDescription: {fileID: 1933843506}
   foundSprite: {fileID: 7645304554898801552, guid: 6440fec051c3f2743b3392ed37e62f1f,
     type: 3}
+  removeCabinetSound: event:/Remove Cabinet
+  removeSound: event:/Found Clue
 --- !u!212 &1788670153
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -27663,6 +27705,8 @@ MonoBehaviour:
   clueDescription: {fileID: 129308127}
   foundSprite: {fileID: -7294855960196888259, guid: 099e79eeb36e7cd4a895494b35433e25,
     type: 3}
+  removeCabinetSound: event:/Remove Cabinet
+  removeSound: event:/Found Clue
 --- !u!212 &1822512550
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -28863,6 +28907,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80fca38e6e20e7d4ca58e556835b0321, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sound: event:/Chem Lab Numpad
   buttonValue: 8
 --- !u!65 &1874170298
 BoxCollider:
@@ -30575,6 +30620,8 @@ MonoBehaviour:
   clueDescription: {fileID: 15529884}
   foundSprite: {fileID: 8442935907378615693, guid: 6edc92cd3236e451f8d797d44b832d7f,
     type: 3}
+  removeCabinetSound: event:/Remove Cabinet
+  removeSound: event:/Found Clue
 --- !u!65 &1967368601
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31423,6 +31470,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80fca38e6e20e7d4ca58e556835b0321, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sound: event:/Chem Lab Numpad
   buttonValue: 1
 --- !u!65 &2006545033
 BoxCollider:
@@ -33049,6 +33097,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80fca38e6e20e7d4ca58e556835b0321, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sound: event:/Chem Lab Numpad
   buttonValue: 9
 --- !u!65 &2129710034
 BoxCollider:

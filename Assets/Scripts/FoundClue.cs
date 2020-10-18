@@ -8,6 +8,12 @@ public class FoundClue : MonoBehaviour
     string PLAYER_TAG = "Player";
     public ClueMenuItems clueDescription;
     public Sprite foundSprite;
+
+    [FMODUnity.EventRef]
+    public string removeCabinetSound = "";
+
+    [FMODUnity.EventRef]
+    public string removeSound = "";
    
     // Start is called before the first frame update
     void Start()
@@ -30,11 +36,13 @@ public class FoundClue : MonoBehaviour
             {
                 if(this.gameObject.name == "Beagles_SecurityCabinet_1")
                 {
+                    FMODUnity.RuntimeManager.PlayOneShot(removeCabinetSound);
                     Destroy(this.gameObject); 
                 }
 
                 if(this.gameObject.name == "Beagles_MrPurrCage_0")
                 {
+                    FMODUnity.RuntimeManager.PlayOneShot(removeSound);
                     Destroy(this.gameObject);
                 }
                 return; 
@@ -44,7 +52,7 @@ public class FoundClue : MonoBehaviour
 
             FindObjectOfType<NotificationManager>().ShowClueNotification(clueDescription);
             other.GetComponent<CharacterController>().DisableMovement();
-            //TODO Pickup sound effect
+            FMODUnity.RuntimeManager.PlayOneShot(removeSound);
             //Destroy if clue is collectible, else just switch the sprite:
             if (this.gameObject.tag == "collectible")
             {
