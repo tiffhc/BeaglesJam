@@ -1964,6 +1964,7 @@ Transform:
   - {fileID: 1965737870}
   - {fileID: 656336178}
   - {fileID: 1933568617}
+  - {fileID: 1565802658}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -19866,6 +19867,8 @@ Transform:
   - {fileID: 2079668121}
   - {fileID: 1086447768}
   - {fileID: 651712481}
+  - {fileID: 1772948553}
+  - {fileID: 1833511350}
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -19998,7 +20001,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 163703.86, y: -77074.26}
+  m_AnchoredPosition: {x: 204150.31, y: -97315.3}
   m_SizeDelta: {x: 419.62653, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1352895468
@@ -22949,7 +22952,7 @@ GameObject:
   - component: {fileID: 1565802660}
   - component: {fileID: 1565802659}
   m_Layer: 0
-  m_Name: Ami_Library(TO FIX)
+  m_Name: Ami_Library
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22963,11 +22966,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1565802657}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -48.39, y: 27.76, z: 0}
-  m_LocalScale: {x: 0.8, y: 0.5333334, z: 1}
+  m_LocalPosition: {x: -1.25, y: 0.1, z: 0}
+  m_LocalScale: {x: 0.55635756, y: 0.52988243, z: 1}
   m_Children: []
-  m_Father: {fileID: 1592112086}
-  m_RootOrder: 6
+  m_Father: {fileID: 94507170}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1565802659
 BoxCollider:
@@ -22999,13 +23002,11 @@ MonoBehaviour:
     sprite: {fileID: 1839136648029304394, guid: a629971c5249cde42a706a2c46b4f1ee,
       type: 3}
     sentences:
-    - Hey! Congratulations on being Valedictorian!
-    - "Please don\u2019t feel awkward around me regarding what happened before. I
-      even wore perfume for you today. "
-    - Your rejection was no big deal and I only endured some mocking from some people.
-    - "Can we just hang out on this last day as friends? I\u2019ll get you a drink
-      before the graduation ceremony!"
-    - Meet me in the library later?
+    - 'You are finally here! '
+    - "Here\u2019s a drink to toast to your success as the best student in Neorens
+      University\u2019s history! "
+    - 'Looking forward to your Valedictorian speech in a bit and to your shiny bright
+      future! '
 --- !u!95 &1565802661
 Animator:
   serializedVersion: 3
@@ -23412,7 +23413,6 @@ Transform:
   - {fileID: 1987041396}
   - {fileID: 934738013}
   - {fileID: 1799389581}
-  - {fileID: 1565802658}
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -25468,12 +25468,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1772948551}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.88, y: -3.84, z: 0}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 0.5648336}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.8646584, y: -4.5658727, z: 0}
+  m_LocalScale: {x: 0.562101, y: 0.4773521, z: 0.5648336}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_Father: {fileID: 1338940999}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1772948554
 MonoBehaviour:
@@ -26685,12 +26685,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1833511346}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 61.72, y: 5.04, z: 0}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 0.5280895}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 86.72516, y: 6.0313435, z: 0}
+  m_LocalScale: {x: 0.562101, y: 0.4773521, z: 0.5280895}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_Father: {fileID: 1338940999}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1833511351
 Animator:
