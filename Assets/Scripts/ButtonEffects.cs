@@ -45,13 +45,13 @@ public class ButtonEffects : MonoBehaviour
     {
         //cluebook.SetActive(true);
         animator.SetBool("isOpen", true);
-        cluebutton.SetActive(true);
+     //   cluebutton.SetActive(true);
     }
 
     public void DisableClueBook()
     {
         animator.SetBool("isOpen", false);
-        cluebutton.SetActive(false);
+       // cluebutton.SetActive(false);
     }
 
 }
