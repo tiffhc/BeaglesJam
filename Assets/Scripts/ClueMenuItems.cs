@@ -6,16 +6,17 @@ using UnityEngine.UI;
 public class ClueMenuItems : MonoBehaviour
 {
     public bool isVisible = false;
-    public Text clueDescription; 
+    public Text clueDescription;
+    public Image cluePicture;
 
-    void Start()
-    {
-        
-    }
+    public Sprite thisSprite;
+    [TextArea(3, 10)]
+    public string thisClueSentences;
 
-    // Update is called once per frame
-    void Update()
+    public void ClueButtonClicked()
     {
-        
+        cluePicture.sprite = thisSprite;
+        cluePicture.SetNativeSize();
+        clueDescription.text = thisClueSentences;
     }
 }

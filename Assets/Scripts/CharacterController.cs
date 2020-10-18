@@ -81,5 +81,6 @@ public class CharacterController : MonoBehaviour
     public void DisableMovement()
     {
         isMovementDisabled = !isMovementDisabled;
+        Debug.Log(isMovementDisabled);
     }
 }
