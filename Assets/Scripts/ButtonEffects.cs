@@ -10,6 +10,8 @@ public class ButtonEffects : MonoBehaviour
 
     [SerializeField] GameObject playerObject;
     [SerializeField] Text TextUI;
+    [SerializeField] GameObject cluebutton;
+    [SerializeField] Animator animator;
     
 
 
@@ -37,6 +39,19 @@ public class ButtonEffects : MonoBehaviour
     public void StartDeleteUITextCoroutime(float time)
     {
         StartCoroutine("DeleteUITextAfterTime", time);
+    }
+
+    public void EnableClueBook()
+    {
+        //cluebook.SetActive(true);
+        animator.SetBool("isOpen", true);
+        cluebutton.SetActive(true);
+    }
+
+    public void DisableClueBook()
+    {
+        animator.SetBool("isOpen", false);
+        cluebutton.SetActive(false);
     }
 
 }
