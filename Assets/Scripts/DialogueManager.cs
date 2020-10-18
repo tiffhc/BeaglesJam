@@ -13,6 +13,12 @@ public class DialogueManager : MonoBehaviour
     public Animator textAnimator;
 
     private Queue<string> sentences;
+
+    [FMODUnity.EventRef]
+    public string nextDialogueSound = "";
+    [FMODUnity.EventRef]
+    public string endDialogueSound = "";
+
     // Start is called before the first frame update
     void Start()
     {
@@ -43,6 +49,7 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
+        FMODUnity.RuntimeManager.PlayOneShot(nextDialogueSound);
         string sentence = sentences.Dequeue();
         //textAnimator.SetBool("isOpen", false);
         //StartCoroutine(Wait(1.15f));
@@ -69,6 +76,7 @@ public class DialogueManager : MonoBehaviour
 
     public void EndDialogue()
     {
+        FMODUnity.RuntimeManager.PlayOneShot(endDialogueSound);
         animator.SetBool("isOpen", false);
     }
 

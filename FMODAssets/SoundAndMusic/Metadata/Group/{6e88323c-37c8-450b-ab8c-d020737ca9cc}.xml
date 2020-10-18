@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{6e88323c-37c8-450b-ab8c-d020737ca9cc}">
+		<property name="volume">
+			<value>-1</value>
+		</property>
+		<property name="name">
+			<value>Main and MiniGame Themes</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{d952773b-cd66-4d46-b70a-f3a15bdcdad6}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{017f192d-ac85-41e7-92c0-84101b6f1e22}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{94c49b45-3895-4af4-95de-4e994105fc7e}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{d952773b-cd66-4d46-b70a-f3a15bdcdad6}">
+		<relationship name="effects">
+			<destination>{57b71d3b-9d6e-40bf-b7c3-6716da55e594}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{017f192d-ac85-41e7-92c0-84101b6f1e22}" />
+	<object class="MixerBusFader" id="{57b71d3b-9d6e-40bf-b7c3-6716da55e594}" />
+</objects>

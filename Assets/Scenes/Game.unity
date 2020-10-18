@@ -5762,7 +5762,7 @@ GameObject:
   - component: {fileID: 542842481}
   - component: {fileID: 542842479}
   m_Layer: 0
-  m_Name: ExplorationMusic
+  m_Name: Level0Music
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5781,7 +5781,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/Exploration Theme
+  Event: event:/Main Theme
   PlayEvent: 1
   StopEvent: 0
   AllowFadeout: 1
@@ -10832,6 +10832,8 @@ MonoBehaviour:
   spriteImage: {fileID: 684313937}
   animator: {fileID: 29255699}
   textAnimator: {fileID: 1976119549}
+  nextDialogueSound: event:/Next Dialog UI
+  endDialogueSound: event:/End Dialog UI
 --- !u!4 &1090372733
 Transform:
   m_ObjectHideFlags: 0
