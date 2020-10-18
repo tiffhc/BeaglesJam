@@ -25,7 +25,23 @@ public class FoundClue : MonoBehaviour
     {
         if(other.gameObject.tag == PLAYER_TAG)
         {
+
+            if(UIElement == null)
+            {
+                if(this.gameObject.name == "Beagles_SecurityCabinet_1")
+                {
+                    Destroy(this.gameObject); 
+                }
+
+                if(this.gameObject.name == "Beagles_MrPurrCage_0")
+                {
+                    Destroy(this.gameObject);
+                }
+                return; 
+            }
+
             UIElement.SetActive(true);
+
             FindObjectOfType<NotificationManager>().ShowClueNotification(clueDescription);
             other.GetComponent<CharacterController>().DisableMovement();
             //TODO Pickup sound effect

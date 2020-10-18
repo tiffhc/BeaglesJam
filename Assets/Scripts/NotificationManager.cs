@@ -39,6 +39,11 @@ public class NotificationManager : MonoBehaviour
     {
         animator.SetBool("isOpen", true);
         dialogueText.text = clueDescription.thisClueSentences;
+
+        if(clueDescription.gameObject.name == "ChemSheet")
+        {
+            dialogueText.text = "A chemistry sheet? Let me take a closer look"; 
+        }
     }
 
     public void DisplayNextSentence()
