@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: 3cb6159f8afb34c66bef12d00894c3a6
+guid: 1c59efb597e99b44f91a1719b1f2816a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -69336513859392769
-    second: Beagles_MCPhone_0
+      213: 6087526364702904856
+    second: Beagles_robotarm_small_0
   - first:
-      213: -4613426753351865863
-    second: Beagles_MCPhone_1
+      213: -7266786976574431227
+    second: Beagles_robotarm_small_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -129,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Beagles_MCPhone_0
+      name: Beagles_robotarm_small_0
       rect:
         serializedVersion: 2
-        x: 152
-        y: 39
-        width: 167
-        height: 286
+        x: 71
+        y: 23
+        width: 296
+        height: 311
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ffa6279decaa90ff0800000000000000
-      internalID: -69336513859392769
+      spriteID: 81211f0c9fc3b7450800000000000000
+      internalID: 6087526364702904856
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Beagles_MCPhone_1
+      name: Beagles_robotarm_small_1
       rect:
         serializedVersion: 2
-        x: 523
-        y: 40
-        width: 167
-        height: 287
+        x: 471
+        y: 26
+        width: 296
+        height: 311
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,8 +164,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f9ad219fc0d9ffb0800000000000000
-      internalID: -4613426753351865863
+      spriteID: 500a8d2febf272b90800000000000000
+      internalID: -7266786976574431227
       vertices: []
       indices: 
       edges: []
