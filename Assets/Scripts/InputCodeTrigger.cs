@@ -2,9 +2,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class InputCodeTrigger : MonoBehaviour
 {
+    [SerializeField] private bool End; 
     [SerializeField] EnterCodeManager minigame = null;
     [SerializeField] private string code = "";
     [SerializeField] private Transform lastCameraPosition = null;
@@ -15,10 +17,28 @@ public class InputCodeTrigger : MonoBehaviour
         Camera.main.transform.position = lastCameraPosition.position;
         if(solved)
         {
-            foreach (DoorBehaviour door in doors)
+
+            if(this.gameObject.name == "Beagles_robotarm_1")
             {
-                door.isDoorUnlocked = true;
+                SceneManager.LoadScene("WinGame"); 
             }
+            else
+            {
+                foreach (DoorBehaviour door in doors)
+                {
+                    door.isDoorUnlocked = true;
+                }
+
+            }
+        }
+
+    }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        if(this.gameObject.name == "Beagles_robotarm_1")
+        {
+            StartMinigame(); 
         }
     }
 
